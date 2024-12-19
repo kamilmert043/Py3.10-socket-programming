@@ -17,7 +17,7 @@ async def proxy(websocket):
 
 
 async def main():
-    async with websockets.serve(proxy, "localhost", 8765):
+    async with websockets.serve(proxy, "localhost", 2708):
         await asyncio.Future()
 
 
